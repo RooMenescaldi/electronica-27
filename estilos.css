@@ -1,5 +1,5 @@
 *{
-    margin: 1;
+    margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
@@ -80,6 +80,37 @@ main{
 }
 .imghover:hover{
     transform: scale(1.05);
+}
+
+.imghover1:hover{
+    transform: rotate(10deg);
+}
+.imghover2{
+    transform: rotate(10deg);
+}
+.imghover3:hover{
+    transform: scale(1, 2);
+}
+.imghover4{
+    transform: scale(1, 2);
+}
+.imghover5:hover{
+    transform: skew(10deg);
+}
+.imghover6:hover{
+    transform: skewX(15deg);
+}
+.imghover7{
+    transform: skewX(15deg);
+}
+.imghover8:hover{
+    transform: skewY(10deg);
+}
+.imghover9{
+    transform: skewY(10deg);
+}
+.imghover10{
+    transform: skew(10deg);
 }
 .masvendido{
     height: 10%;
