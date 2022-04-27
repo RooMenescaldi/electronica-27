@@ -1499,7 +1499,7 @@ main{
     background-position: center;
 }
 .menutiendas{
-    height: 200vh;
+    height: 250vh;
 }
 .menufavoritos{
     height: 140vh;
@@ -1609,7 +1609,7 @@ table{
 }
 tr{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 .localidad{
     width: 20%;
@@ -1653,16 +1653,16 @@ section{
 }
 footer{
     background-color: black;
-    height: 300px;
+    height: 350px;
     width: 100%;
-    padding: 10;
+    padding: 10px;
 }
 .consultas{
     color: white;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .contactate{
     color: white;
