@@ -81,7 +81,7 @@ main{
 .imghover:hover{
     transform: scale(1.05);
 }
-
+/* 
 .imghover1:hover{
     transform: rotate(10deg);
 }
@@ -111,7 +111,7 @@ main{
 }
 .imghover10{
     transform: skew(10deg);
-}
+} */
 .masvendido{
     height: 10%;
     display: flex;
