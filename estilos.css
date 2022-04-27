@@ -1490,9 +1490,10 @@ header a:hover{
     justify-content: end;
     align-items: center;
     padding-top: 60px;
+    background-color: black; 
 }
 main{
-    height: 240vh;
+    height: 270vh;
     background-image: url(media/fondogamer.jpg);
     background-size: cover;
     background-position: center;
@@ -1520,6 +1521,25 @@ main{
 }
 img{
     height: 180px;
+}
+.galeriaboot{
+    height: 600px;
+}
+.carousel-indicators li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+.carousel-control-prev-icon{
+    background-color: red;
+    height: 70px;
+    width: 25px;
+}
+.carousel-control-next-icon{
+    background-color: red;
+    height: 70px;
+    width: 25px;
 }
 .masvendido{
     height: 12%;
@@ -1560,6 +1580,7 @@ h2{
     background-color: red;
     text-align: center;
     text-transform: capitalize;
+    margin: 0;
 }
 .subtitulos{
     color: white;
@@ -1698,6 +1719,15 @@ bottom: 20px;
     background-size: cover;
     background-position-y: bottom;
     text-align: center;
+}
+/* formu y was-validated es lo mismo, una comun, el otro bootstrap */
+.was-validated{
+    height: 700px;
+    background-image: url(media/fondogamer.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    text-align: center;
+    color: white;
 }
 label{
     font-size: 30px;
