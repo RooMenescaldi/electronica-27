@@ -272,7 +272,6 @@ footer {
     font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
-    margin-left: 15px;
 }
 
 .cuotas {
@@ -294,7 +293,6 @@ i {
     height: 50px;
     width: 100px;
     font-size: 50px;
-    margin-left: 30px;
 }
 
 .footer-info {
@@ -413,7 +411,7 @@ fieldset {
     }
 
     .menutiendas {
-        height: 120vh;
+        height: 170vh;
     }
 
     .menufavoritos {
@@ -534,11 +532,14 @@ fieldset {
     }
 
     table {
-        width: 100px;
+        width: 100%;
         font-size: 6px;
         background-color: rgb(235, 235, 235);
     }
-
+    .table td, .table th {
+        /* padding: 0.75rem; */
+        vertical-align: middle;
+    }
     .tabletodo {
         height: 130px;
         width: 35.5%;
@@ -568,33 +569,32 @@ fieldset {
 
     tr {
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
     }
-
     .localidad {
         width: 20%;
-        font-size: 18px;
+        font-size: 9px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .direccion {
         width: 20%;
-        font-size: 18px;
+        font-size: 9px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .tel {
         width: 20%;
-        font-size: 18px;
+        font-size: 9px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .map {
         width: 40%;
-        font-size: 18px;
+        font-size: 9px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -610,7 +610,7 @@ fieldset {
     }
 
     section {
-        font-size: 11px;
+        font-size: 10px;
         height: 200px;
         width: 100%;
         background-color: red;
@@ -796,7 +796,7 @@ fieldset {
     }
 
     .menutiendas {
-        height: 170vh;
+        height: 250vh;
     }
 
     .menufavoritos {
@@ -913,28 +913,28 @@ fieldset {
 
     .localidad {
         width: 20%;
-        font-size: 25px;
+        font-size: 21px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .direccion {
         width: 20%;
-        font-size: 25px;
+        font-size: 21px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .tel {
         width: 20%;
-        font-size: 25px;
+        font-size: 21px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .map {
         width: 40%;
-        font-size: 25px;
+        font-size: 21px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -950,7 +950,7 @@ fieldset {
     }
 
     section {
-        font-size: 16px;
+        font-size: 12px;
         height: 200px;
         width: 100%;
         background-color: red;
@@ -961,7 +961,7 @@ fieldset {
 
     footer {
         background-color: black;
-        height: 300px;
+        height: 320px;
         width: 100%;
         padding: 10;
     }
@@ -978,7 +978,7 @@ fieldset {
         color: white;
         font-size: 17px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: left;
+        text-align: center;
     }
 
     .cuotas {
@@ -1963,7 +1963,6 @@ fieldset {
         font-size: 22px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: left;
-        margin-left: 15px;
     }
 
     .cuotas {
@@ -1986,7 +1985,6 @@ fieldset {
         height: 50px;
         width: 100px;
         font-size: 50px;
-        margin-left: 30px;
     }
 
     .footer-info {
