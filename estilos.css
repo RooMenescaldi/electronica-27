@@ -415,11 +415,11 @@ fieldset {
     }
 
     .menufavoritos {
-        height: 140vh;
+        height: 110vh;
     }
 
     .menucarrito {
-        height: 80vh;
+        height: 40vh;
     }
 
     .imagenes {
@@ -466,11 +466,11 @@ fieldset {
     }
 
     .imgfav {
-        height: 100px;
+        height: 50px;
     }
 
     .imgcarrito {
-        height: 100px;
+        height: 50px;
     }
 
     .masvendido {
@@ -804,7 +804,7 @@ fieldset {
     }
 
     .menucarrito {
-        height: 100vh;
+        height: 80vh;
     }
 
     .imagenes {
@@ -901,8 +901,8 @@ fieldset {
     .tablecarro {
         float: right;
         height: 120px;
-        width: 28%;
-        font-size: 20px;
+        width: 30%;
+        font-size: 18px;
         background-color: rgb(235, 235, 235);
     }
 
@@ -1791,7 +1791,12 @@ fieldset {
     img {
         height: 180px;
     }
-
+    .imgfav {
+        height: 100px;
+    }
+    .imgcarrito {
+        height: 100px;
+    }
     .galeriaboot {
         height: 600px;
     }
