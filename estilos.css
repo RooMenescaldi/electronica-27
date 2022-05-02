@@ -462,7 +462,8 @@ fieldset {
     }
 
     img {
-        height: 160px;
+        height: 150px;
+        box-shadow: 10px 10px 10px grey;
     }
 
     .imgfav {
