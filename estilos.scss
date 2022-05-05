@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0%;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -18,7 +17,7 @@ header {
     border: 3px solid white;
     border-radius: 50px;
     margin-left: 20px;
-    margin-top: 7px;
+    margin-top: 7px
 }
 
 h1 {
@@ -35,11 +34,7 @@ h1 {
     font-size: 55px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -54,6 +49,7 @@ header ul li a {
     font-size: 34px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 30px;
+
 }
 
 header a:hover {
@@ -61,14 +57,8 @@ header a:hover {
 }
 
 .barra {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     padding-top: 60px;
 }
@@ -94,25 +84,15 @@ main {
 
 .imagenes {
     height: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    -ms-flex-line-pack: justify;
     align-content: space-between;
     padding-top: 60px;
 }
 
 .imghover:hover {
-    -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
@@ -149,51 +129,27 @@ main {
 } */
 .masvendido {
     height: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding-top: 60px;
 }
 
 .ofertas {
     height: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding-top: 60px;
 }
 
 .videos {
     height: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding-top: 100px;
 }
@@ -228,14 +184,14 @@ h2 {
 table {
     width: 100%;
     font-size: 35px;
-    background-color: #ebebeb;
+    background-color: rgb(235, 235, 235);
 }
 
 .tabletodo {
     height: 130px;
     width: 35.5%;
     font-size: 35px;
-    background-color: #ebebeb;
+    background-color: rgb(235, 235, 235);
 }
 
 .tablecarro {
@@ -243,7 +199,7 @@ table {
     height: 120px;
     width: 28%;
     font-size: 35px;
-    background-color: #ebebeb;
+    background-color: rgb(235, 235, 235);
 }
 
 tr {
@@ -285,7 +241,7 @@ iframe {
 
 .eliminarfav input {
     font-size: 30px;
-    background-color: #8b8bf7;
+    background-color: rgb(139, 139, 247);
 }
 
 section {
@@ -343,13 +299,8 @@ i {
 .footer-info {
     background-color: black;
     height: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -392,108 +343,88 @@ header {
     height: 150px;
     width: 100%;
     padding: 10;
+    .logo {
+        float: left;
+        height: 130px;
+        border: 3px solid white;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-top: 7px
+    }
+    h1 {
+        font-size: 40px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+        float: left;
+        margin-left: 30px;
+        padding-top: 20px;
+    }
+    .barra {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-top: 60px;
+        background-color: black;
+        ul li {
+            list-style: none;
+            display: inline-block;
+            ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 34px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin-right: 30px;
+        
+            }
+        }
+    }
 }
-
-header .logo {
-    float: left;
-    height: 130px;
-    border: 3px solid white;
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-top: 7px;
-}
-
-header h1 {
-    font-size: 40px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: capitalize;
-    float: left;
-    margin-left: 30px;
-    padding-top: 20px;
-}
-
-header .barra {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding-top: 60px;
-    background-color: black;
-}
-
-header .barra ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-header .barra ul li ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 34px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 30px;
-}
-
 .menucarrito {
     height: 100vh;
-}
+    h2 {
+        color: white;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: red;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 0;
+    }
+    table .table{
+        width: 100%;
+        font-size: 35px;
+        background-color: rgb(235, 235, 235);
+        thead tr {
+            text-align: center;
+            font-size: 30px;
+            .imgcarrito {
+                height: 100px;
+            }
+        }
+        tbody tr{
 
-.menucarrito h2 {
-    color: white;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: red;
-    text-align: center;
-    text-transform: capitalize;
-    margin: 0;
-}
+            text-align: center;
+            font-size: 30px;
+            .imgcarrito {
+                height: 100px;
+            }
+        }
+    }
+    table .tablecarro{
+        float: right;
+        height: 120px;
+        width: 28%;
+        font-size: 35px;
+        background-color: rgb(235, 235, 235);
+        thead tr {
+            text-align: center;
+            font-size: 30px;
+        }
+        tbody tr{
 
-.menucarrito table .table {
-    width: 100%;
-    font-size: 35px;
-    background-color: #ebebeb;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
 }
-
-.menucarrito table .table thead tr {
-    text-align: center;
-    font-size: 30px;
-}
-
-.menucarrito table .table thead tr .imgcarrito {
-    height: 100px;
-}
-
-.menucarrito table .table tbody tr {
-    text-align: center;
-    font-size: 30px;
-}
-
-.menucarrito table .table tbody tr .imgcarrito {
-    height: 100px;
-}
-
-.menucarrito table .tablecarro {
-    float: right;
-    height: 120px;
-    width: 28%;
-    font-size: 35px;
-    background-color: #ebebeb;
-}
-
-.menucarrito table .tablecarro thead tr {
-    text-align: center;
-    font-size: 30px;
-}
-
-.menucarrito table .tablecarro tbody tr {
-    text-align: center;
-    font-size: 30px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
