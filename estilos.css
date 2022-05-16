@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0%;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -12,13 +11,13 @@ header {
     padding: 10;
 }
 
-.logo{
+.logo {
     float: left;
     height: 130px;
     border: 3px solid white;
     border-radius: 50px;
     margin-left: 20px;
-    margin-top: 7px;
+    margin-top: 7px
 }
 
 h1 {
@@ -35,11 +34,7 @@ h1 {
     font-size: 55px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -54,6 +49,7 @@ header ul li a {
     font-size: 34px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 30px;
+
 }
 
 header a:hover {
@@ -61,14 +57,8 @@ header a:hover {
 }
 
 .barra {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: end;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     padding-top: 60px;
 }
@@ -94,106 +84,41 @@ main {
 
 .imagenes {
     height: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    -ms-flex-line-pack: justify;
     align-content: space-between;
     padding-top: 60px;
 }
 
 .imghover:hover {
-    -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 
-/* 
-.imghover1:hover{
-    transform: rotate(10deg);
-}
-.imghover2{
-    transform: rotate(10deg);
-}
-.imghover3:hover{
-    transform: scale(1, 2);
-}
-.imghover4{
-    transform: scale(1, 2);
-}
-.imghover5:hover{
-    transform: skew(10deg);
-}
-.imghover6:hover{
-    transform: skewX(15deg);
-}
-.imghover7{
-    transform: skewX(15deg);
-}
-.imghover8:hover{
-    transform: skewY(10deg);
-}
-.imghover9{
-    transform: skewY(10deg);
-}
-.imghover10{
-    transform: skew(10deg);
-} */
 .masvendido {
     height: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding-top: 60px;
 }
 
 .ofertas {
     height: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding-top: 60px;
 }
 
 .videos {
     height: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding-top: 100px;
 }
@@ -228,14 +153,14 @@ h2 {
 table {
     width: 100%;
     font-size: 35px;
-    background-color: #ebebeb;
+    background-color: rgb(235, 235, 235);
 }
 
 .tabletodo {
     height: 130px;
     width: 35.5%;
     font-size: 35px;
-    background-color: #ebebeb;
+    background-color: rgb(235, 235, 235);
 }
 
 .tablecarro {
@@ -243,7 +168,7 @@ table {
     height: 120px;
     width: 28%;
     font-size: 35px;
-    background-color: #ebebeb;
+    background-color: rgb(235, 235, 235);
 }
 
 tr {
@@ -285,7 +210,7 @@ iframe {
 
 .eliminarfav input {
     font-size: 30px;
-    background-color: #8b8bf7;
+    background-color: rgb(139, 139, 247);
 }
 
 section {
@@ -343,13 +268,8 @@ i {
 .footer-info {
     background-color: black;
     height: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -387,7 +307,7 @@ fieldset {
     padding-right: 20px;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width:320px) {
     header {
         background-color: black;
         height: 150px;
@@ -401,7 +321,7 @@ fieldset {
         border: 3px solid white;
         border-radius: 50px;
         margin-left: 20px;
-        margin-top: 7px;
+        margin-top: 7px
     }
 
     h1 {
@@ -418,11 +338,7 @@ fieldset {
         font-size: 28px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -440,14 +356,9 @@ fieldset {
     }
 
     .navbar-nav {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         padding-bottom: 0px;
         list-style: none;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
     }
 
@@ -456,54 +367,44 @@ fieldset {
     }
 
     .barra {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
         justify-content: end;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 30px;
         padding-left: 20px;
     }
 
     main {
-        height: 500vh;
+        height: 3100px;
         background-image: url(media/fondogamer.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .menutiendas {
-        height: 170vh;
+        height: 900px;
     }
 
     .menufavoritos {
-        height: 110vh;
+        height: 600px;
     }
 
     .menucarrito {
-        height: 60vh;
+        height: 350px;
     }
 
     .imagenes {
         height: 45%;
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         /* flex-direction: row; */
         /* flex-wrap: wrap; */
         justify-items: center;
-        -ms-flex-line-pack: justify;
         align-content: space-between;
         padding-top: 60px;
     }
 
     .imghover:hover {
-        -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
 
@@ -516,24 +417,23 @@ fieldset {
         height: 10px;
         width: 11px;
         border-radius: 50%;
-        background-color: black;
+        background-color: red;
     }
 
     .carousel-control-prev-icon {
-        background-color: black;
+        background-color: red;
         height: 70px;
         width: 15px;
     }
 
     .carousel-control-next-icon {
-        background-color: black;
+        background-color: red;
         height: 70px;
         width: 15px;
     }
 
     img {
         height: 150px;
-        -webkit-box-shadow: 10px 10px 10px grey;
         box-shadow: 10px 10px 10px grey;
     }
 
@@ -547,9 +447,7 @@ fieldset {
 
     .masvendido {
         height: 25%;
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         /* flex-direction: row; */
         /* flex-wrap: wrap; */
@@ -559,15 +457,9 @@ fieldset {
 
     .ofertas {
         height: 35%;
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         justify-items: center;
         padding-top: 60px;
@@ -575,19 +467,10 @@ fieldset {
 
     .videos {
         height: 15%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
         padding-top: 60px;
     }
@@ -599,7 +482,7 @@ fieldset {
 
     .videoxbox {
         height: 150px;
-        width: 250px;
+        width: 250px
     }
 
     h2 {
@@ -609,7 +492,7 @@ fieldset {
         background-color: red;
         text-align: center;
         text-transform: capitalize;
-        margin: 0;
+        margin: 0
     }
 
     .subtitulos {
@@ -623,20 +506,16 @@ fieldset {
     table {
         width: 100%;
         font-size: 6px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
-
-    .table td,
-    .table th {
-        /* padding: 0.75rem; */
+    .table td, .table th {
         vertical-align: middle;
     }
-
     .tabletodo {
         height: 130px;
         width: 35.5%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .num {
@@ -650,19 +529,12 @@ fieldset {
         height: 60px;
         width: 58%;
         font-size: 20px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     article {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
         align-items: flex-end;
     }
 
@@ -670,7 +542,6 @@ fieldset {
         text-align: center;
         font-size: 10px;
     }
-
     .localidad {
         width: 20%;
         font-size: 9px;
@@ -706,7 +577,7 @@ fieldset {
 
     .eliminarfav input {
         font-size: 8px;
-        background-color: #8b8bf7;
+        background-color: rgb(139, 139, 247);
     }
 
     section {
@@ -738,12 +609,8 @@ fieldset {
         color: white;
         font-size: 15px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
         text-align: center;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
         align-items: start;
     }
 
@@ -752,8 +619,6 @@ fieldset {
         font-size: 15px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -765,11 +630,7 @@ fieldset {
     }
 
     .icon {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -783,17 +644,9 @@ fieldset {
     .footer-info {
         background-color: black;
         height: 150px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -805,8 +658,6 @@ fieldset {
         background-color: red;
         color: black;
         text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
         border-radius: 50px;
         border: 3px solid white;
@@ -832,13 +683,11 @@ fieldset {
         text-align: center;
         color: white;
     }
-
     .form-check {
         position: relative;
         display: block;
-        padding-left: 0px;
+        padding-left: 0px
     }
-
     label {
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -852,7 +701,7 @@ fieldset {
     }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width:576px) {
     header {
         background-color: black;
         height: 200px;
@@ -866,7 +715,7 @@ fieldset {
         border: 3px solid white;
         border-radius: 50px;
         margin-left: 20px;
-        margin-top: 7px;
+        margin-top: 7px
     }
 
     h1 {
@@ -875,7 +724,6 @@ fieldset {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-transform: capitalize;
         float: left;
-        /* margin-left: 20px; */
         padding-top: 20px;
     }
 
@@ -883,11 +731,7 @@ fieldset {
         font-size: 35px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -903,120 +747,102 @@ fieldset {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-right: 6px;
     }
-
     header a:hover {
         color: red;
     }
-
     .barra {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         display: inline-block;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
         justify-content: end;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 30px;
     }
 
     main {
-        height: 500vh;
+        height: 2800px;
         background-image: url(media/fondogamer.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .menutiendas {
-        height: 250vh;
+        height: 1300px;
     }
 
     .menufavoritos {
-        height: 130vh;
+        height: 600px;
     }
 
     .menucarrito {
-        height: 80vh;
+        height: 450px;
     }
 
     .imagenes {
         height: 33%;
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         /* flex-direction: row; */
         /* flex-wrap: wrap; */
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
-        -ms-flex-line-pack: justify;
         align-content: space-between;
         padding-top: 60px;
     }
 
     .imghover:hover {
-        -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
-
     .galeriaboot {
         height: 300px;
         width: 100%;
     }
 
+    .carousel-indicators li {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: red;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: red;
+        height: 70px;
+        width: 15px;
+    }
+
+    .carousel-control-next-icon {
+        background-color: red;
+        height: 70px;
+        width: 15px;
+    }
     img {
         height: 140px;
     }
 
     .masvendido {
-        height: 25%;
-        display: -ms-grid;
+        height: 650px;
         display: grid;
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         justify-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 60px;
     }
 
     .ofertas {
-        height: 15%;
-        display: -ms-grid;
+        height: 500px;
         display: grid;
-        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         padding-top: 60px;
     }
 
     .videos {
-        height: 22%;
-        display: -webkit-box;
-        display: -ms-flexbox;
+        height: 700px;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
         padding-top: 60px;
     }
@@ -1051,14 +877,14 @@ fieldset {
     table {
         width: 100%;
         font-size: 25px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tabletodo {
         height: 120px;
         width: 35.5%;
         font-size: 25px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tablecarro {
@@ -1066,7 +892,7 @@ fieldset {
         height: 120px;
         width: 30%;
         font-size: 18px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     tr {
@@ -1109,7 +935,7 @@ fieldset {
 
     .eliminarfav input {
         font-size: 15px;
-        background-color: #8b8bf7;
+        background-color: rgb(139, 139, 247);
     }
 
     section {
@@ -1160,8 +986,6 @@ fieldset {
     }
 
     .icon {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 
@@ -1175,13 +999,8 @@ fieldset {
     .footer-info {
         background-color: black;
         height: 150px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -1222,7 +1041,7 @@ fieldset {
     }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width:960px) {
     header {
         background-color: black;
         height: 150px;
@@ -1236,7 +1055,7 @@ fieldset {
         border: 3px solid white;
         border-radius: 50px;
         margin-left: 20px;
-        margin-top: 7px;
+        margin-top: 7px
     }
 
     h1 {
@@ -1254,8 +1073,6 @@ fieldset {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
         padding-left: 150px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 
@@ -1270,6 +1087,7 @@ fieldset {
         font-size: 15px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-right: 12px;
+
     }
 
     header a:hover {
@@ -1277,105 +1095,95 @@ fieldset {
     }
 
     .barra {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
         justify-content: end;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 110px;
     }
 
     main {
-        height: 600vh;
+        height: 3200px;
         background-image: url(media/fondogamer.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .menutiendas {
-        height: 280vh;
+        height: 1900px;
     }
 
     .menufavoritos {
-        height: 135vh;
+        height: 700px;
     }
 
     .menucarrito {
-        height: 100vh;
+        height: 500px;
     }
 
     .imagenes {
         height: 30%;
-        display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        /* flex-direction: row; */
-        /* flex-wrap: wrap; */
         justify-items: center;
-        -ms-flex-line-pack: justify;
         align-content: space-between;
         padding-top: 60px;
     }
 
     .imghover:hover {
-        -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
 
     img {
         height: 170px;
     }
+    .galeriaboot {
+        height: 400px;
+    }
 
+    .carousel-indicators li {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: red;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: red;
+        height: 70px;
+        width: 25px;
+    }
+
+    .carousel-control-next-icon {
+        background-color: red;
+        height: 70px;
+        width: 25px;
+    }
     .masvendido {
-        height: 18%;
-        display: -ms-grid;
+        height: 650px;
         display: grid;
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        /* flex-direction: row; */
-        /* flex-wrap: wrap; */
         justify-items: center;
-        -ms-flex-line-pack: justify;
         align-content: space-between;
         padding-top: 60px;
     }
 
     .ofertas {
-        height: 12%;
-        display: -ms-grid;
+        height: 500px;
         display: grid;
-        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        /* flex-direction: row; */
-        /* flex-wrap: wrap; */
         justify-items: center;
-        -ms-flex-line-pack: justify;
         align-content: space-between;
         padding-top: 60px;
     }
 
     .videos {
-        height: 25%;
-        display: -webkit-box;
-        display: -ms-flexbox;
+        height: 900px;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        padding-top: 100px;
+        padding-top: 60px;
     }
 
     .videoplay5 {
@@ -1407,15 +1215,15 @@ fieldset {
 
     table {
         width: 100%;
-        font-size: 25px;
-        background-color: #ebebeb;
+        font-size: 15px;
+        background-color: rgb(235, 235, 235);
     }
 
     .tabletodo {
         height: 130px;
         width: 35.5%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tablecarro {
@@ -1423,50 +1231,50 @@ fieldset {
         height: 120px;
         width: 28%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     tr {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .localidad {
         width: 20%;
-        font-size: 40px;
+        font-size: 30px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .direccion {
         width: 20%;
-        font-size: 40px;
+        font-size: 30px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .tel {
         width: 20%;
-        font-size: 40px;
+        font-size: 30px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .map {
         width: 20%;
-        font-size: 40px;
+        font-size: 30px;
         text-decoration: underline;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     iframe {
-        height: 200px;
-        width: 300px;
+        height: 180px;
+        width: 200px;
     }
 
     .eliminarfav input {
         font-size: 30px;
-        background-color: #8b8bf7;
+        background-color: rgb(139, 139, 247);
     }
 
     section {
@@ -1481,7 +1289,7 @@ fieldset {
 
     footer {
         background-color: black;
-        height: 300px;
+        height: 320px;
         width: 100%;
         padding: 10;
     }
@@ -1530,13 +1338,8 @@ fieldset {
     .footer-info {
         background-color: black;
         height: 100px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -1577,7 +1380,8 @@ fieldset {
     }
 }
 
-@media only screen and (min-width: 1264px) {
+@media only screen and (min-width:1264px) {
+
     header {
         background-color: black;
         height: 150px;
@@ -1591,7 +1395,7 @@ fieldset {
         border: 3px solid white;
         border-radius: 50px;
         margin-left: 20px;
-        margin-top: 7px;
+        margin-top: 7px
     }
 
     h1 {
@@ -1609,8 +1413,6 @@ fieldset {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
         padding-left: 180px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
 
@@ -1625,6 +1427,7 @@ fieldset {
         font-size: 21px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-right: 20px;
+
     }
 
     header a:hover {
@@ -1632,51 +1435,37 @@ fieldset {
     }
 
     .barra {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
         justify-content: end;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 100px;
     }
 
     main {
-        height: 280vh;
+        height: 2500px;
         background-image: url(media/fondogamer.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .menutiendas {
-        height: 200vh;
+        height: 2000px;
     }
 
     .menufavoritos {
-        height: 80vh;
+        height: 800px;
     }
 
     .menucarrito {
-        height: 85vh;
+        height: 500px;
     }
 
     .imagenes {
         height: 30%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        -ms-flex-line-pack: distribute;
         align-content: space-around;
         padding-top: 60px;
     }
@@ -1686,60 +1475,57 @@ fieldset {
     }
 
     .imghover:hover {
-        -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
+    .galeriaboot {
+        height: 600px;
+    }
 
+    .carousel-indicators li {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: red;
+    }
+
+    .carousel-control-prev-icon {
+        background-color: red;
+        height: 70px;
+        width: 25px;
+    }
+
+    .carousel-control-next-icon {
+        background-color: red;
+        height: 70px;
+        width: 25px;
+    }
     .masvendido {
         height: 10%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         justify-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 60px;
     }
 
     .ofertas {
         height: 15%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         justify-items: center;
         padding-top: 60px;
     }
 
     .videos {
-        height: 30%;
-        display: -webkit-box;
-        display: -ms-flexbox;
+        height: 20%;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        padding-top: 100px;
+        padding-top: 40px;
     }
 
     .videoplay5 {
@@ -1772,14 +1558,14 @@ fieldset {
     table {
         width: 100%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tabletodo {
         height: 130px;
         width: 35.5%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tablecarro {
@@ -1787,7 +1573,7 @@ fieldset {
         height: 120px;
         width: 28%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     tr {
@@ -1827,9 +1613,9 @@ fieldset {
         width: 300px;
     }
 
-    .eliminarfav input {
+    .eliminarfav input{
         font-size: 30px;
-        background-color: #8b8bf7;
+        background-color: rgb(139, 139, 247);
     }
 
     section {
@@ -1838,17 +1624,16 @@ fieldset {
         background-color: red;
         color: white;
         text-align: center;
-        padding-top: 100px;
     }
 
-    footer {
+    footer{
         background-color: black;
         height: 350px;
         width: 100%;
         padding: 10;
     }
 
-    .consultas {
+    .consultas{
         color: white;
         font-size: 25px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1890,13 +1675,8 @@ fieldset {
     .footer-info {
         background-color: black;
         height: 100px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -1937,7 +1717,8 @@ fieldset {
     }
 }
 
-@media only screen and (min-width: 1500px) and (max-width: 2100px) {
+@media only screen and (min-width:1500px) and (max-width:2100px) {
+
     header {
         background-color: black;
         height: 150px;
@@ -1951,7 +1732,7 @@ fieldset {
         border: 3px solid white;
         border-radius: 50px;
         margin-left: 20px;
-        margin-top: 7px;
+        margin-top: 7px
     }
 
     h1 {
@@ -1969,11 +1750,7 @@ fieldset {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
         padding-left: 180px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
         justify-content: flex-start;
     }
 
@@ -1988,6 +1765,7 @@ fieldset {
         font-size: 34px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-right: 30px;
+
     }
 
     header a:hover {
@@ -1995,74 +1773,55 @@ fieldset {
     }
 
     .barra {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
         justify-content: end;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
         padding-top: 60px;
         background-color: black;
     }
 
     main {
-        height: 270vh;
+        height: 2400px;
         background-image: url(media/fondogamer.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .menutiendas {
-        height: 250vh;
+        height: 2000px;
     }
 
     .menufavoritos {
-        height: 140vh;
+        height: 900px;
     }
 
     .menucarrito {
-        height: 300vh;
+        height: 500px;
     }
 
     .imagenes {
         height: 25%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
-        -ms-flex-line-pack: justify;
         align-content: space-between;
         padding-top: 60px;
     }
 
     .imghover:hover {
-        -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
 
     img {
         height: 180px;
     }
-
     .imgfav {
         height: 100px;
     }
-
     .imgcarrito {
         height: 100px;
     }
-
     .galeriaboot {
         height: 600px;
     }
@@ -2088,51 +1847,27 @@ fieldset {
 
     .masvendido {
         height: 12%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         padding-top: 60px;
     }
 
     .ofertas {
         height: 12%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         padding-top: 60px;
     }
 
     .videos {
         height: 20%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
         flex-direction: row;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         padding-top: 100px;
     }
@@ -2168,14 +1903,14 @@ fieldset {
     table {
         width: 100%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tabletodo {
         height: 130px;
         width: 35.5%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     .tablecarro {
@@ -2183,75 +1918,12 @@ fieldset {
         height: 120px;
         width: 28%;
         font-size: 35px;
-        background-color: #ebebeb;
+        background-color: rgb(235, 235, 235);
     }
 
     tr {
         text-align: center;
         font-size: 30px;
-    }
-
-    .btn--image1 {
-        background-color: yellow;
-        height: 300px;
-        width: 600px;
-        border: 2px solid black;
-        text-align: center;
-        font-size: 20px;
-        line-height: 150px;
-        border-radius: 20px;
-    }
-
-    .btn--image2 {
-        background-color: yellow;
-        height: 300px;
-        width: 600px;
-        border: 2px solid black;
-        text-align: center;
-        font-size: 40px;
-        line-height: 150px;
-        border-radius: 40px;
-    }
-
-    .btn--image3 {
-        background-color: yellow;
-        height: 300px;
-        width: 600px;
-        border: 2px solid black;
-        text-align: center;
-        font-size: 60px;
-        line-height: 150px;
-        border-radius: 60px;
-    }
-
-    .parrafo1,
-    .parrafo2 {
-        background-color: white;
-        color: red;
-        font-size: 20px;
-    }
-
-    .parrafo2 {
-        color: blue;
-        border-radius: 10px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-top: 20px;
-    }
-
-    .caja1 {
-        height: 300px;
-        width: 400px;
-        background-color: orange;
-        font-size: 50px;
-        text-align: center;
-    }
-
-    .caja2 {
-        height: 350px;
-        width: 500px;
-        background-color: blueviolet;
-        font-size: 100px;
-        text-align: center;
     }
 
     .localidad {
@@ -2289,7 +1961,7 @@ fieldset {
 
     .eliminarfav input {
         font-size: 30px;
-        background-color: #8b8bf7;
+        background-color: rgb(139, 139, 247);
     }
 
     section {
@@ -2298,7 +1970,6 @@ fieldset {
         background-color: red;
         color: white;
         text-align: center;
-        padding-top: 100px;
     }
 
     footer {
@@ -2348,13 +2019,8 @@ fieldset {
     .footer-info {
         background-color: black;
         height: 100px;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
         justify-content: space-around;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -2405,5 +2071,3 @@ fieldset {
         padding-right: 20px;
     }
 }
-
-/*# sourceMappingURL=estilos.css.map */
