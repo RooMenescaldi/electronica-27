@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-    font-size: 41px;
+    font-size: 40px;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: capitalize;
@@ -341,7 +341,6 @@ fieldset {
         display: flex;
         justify-content: center;
     }
-
     header ul li {
         list-style: none;
         display: inline-block;
@@ -355,19 +354,13 @@ fieldset {
         margin-right: 6px;
     }
 
-    .navbar-nav {
-        display: flex;
-        padding-bottom: 0px;
-        list-style: none;
-        flex-direction: row;
-    }
-
     header a:hover {
         color: red;
     }
 
     .barra {
         display: flex;
+        display: inline-block;
         justify-content: end;
         align-items: center;
         padding-top: 30px;
@@ -397,8 +390,6 @@ fieldset {
         height: 45%;
         display: grid;
         grid-template-columns: 1fr;
-        /* flex-direction: row; */
-        /* flex-wrap: wrap; */
         justify-items: center;
         align-content: space-between;
         padding-top: 60px;
@@ -587,7 +578,7 @@ fieldset {
         background-color: red;
         color: white;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
     footer {
@@ -945,7 +936,7 @@ fieldset {
         background-color: red;
         color: white;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 50px;
     }
 
     footer {
